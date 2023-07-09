@@ -1,0 +1,46 @@
+#autozone-form{
+    display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  background-color: #f2f2f2;
+  width: 129%;
+  border-top-style: solid;
+  border-color: coral;
+
+}
+
+#autozone-form .form-item{
+    margin-right:20px;
+}
+.settext{
+    width: 155px;
+    padding: 0px 15px 0px 15px;
+    
+}
+
+.boldc{
+    font-weight: bold;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.belowc{   
+    font-size: 12px;
+}
+
+#autozone-form #edit-year{    
+    border-bottom-style: solid;
+    border-bottom-color: coral;
+}
+
+#autozone-form #edit-make{
+    background-color: #f2f2f2;    
+}
+
+#autozone-form #edit-model{
+    background-color: #f2f2f2;    
+}
+
+#autozone-form #edit-engine{
+    background-color: #f2f2f2;    
+}

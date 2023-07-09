@@ -1,0 +1,23 @@
+
+autozone.year_controller_getmakebyyear:
+  path: '/autozone/getmakebyyear/{year}'
+  defaults:
+    _controller: '\Drupal\autozone\Controller\YearController::getmakebyyear'
+    _title: 'getmakebyyear'
+  requirements:
+    _permission: 'access content'
+autozone.autozone_form:
+  path: '/autozone/form/autozone'
+  defaults:
+    _form: '\Drupal\autozone\Form\AutozoneForm'
+    _title: 'AutozoneForm'
+  requirements:
+    _access: 'TRUE'
+
+autozone.model_controller_getmodelbymake:
+  path: '/autozone/getmodelbymake/{make}'
+  defaults:
+    _controller: '\Drupal\autozone\Controller\ModelController::getmodelbymake'
+    _title: 'getmodelbymake'
+  requirements:
+    _permission: 'access content'
